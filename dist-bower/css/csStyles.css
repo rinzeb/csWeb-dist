@@ -509,6 +509,10 @@ body,
   position: absolute;
   left: 40px; }
 
+.legend-entry-row {
+  padding-left: 12px;
+  padding-bottom: 2px; }
+
 /* End StyleList */
 /* Start OfflineSearch */
 .typeahead-group-header {
@@ -1213,6 +1217,9 @@ body,
 
 #featureprops-content:hover leftpanel-header-button-container {
   opacity: 0.5; }
+
+#featureprops-content {
+  max-width: 355px; }
 
 .enable-newlines {
   white-space: pre-wrap; }
@@ -2569,6 +2576,9 @@ input[type="checkbox"] {
   background: #eee;
   margin-top: -10px; }
 
+.tab-content {
+  width: 355px; }
+
 /* custom inclusion of right, left and below tabs */
 #rightpanelTabContainer.tabs-below > .nav-tabs,
 #rightpanelTabContainer.tabs-right > .nav-tabs,
@@ -2674,7 +2684,8 @@ input[type="checkbox"] {
   -webkit-transition: 1s ease-in-out all;
   /* Chrome */
   display: none !important;
-  transition: 1s ease-in-out all; }
+  transition: 1s ease-in-out all;
+  width: 355px; }
 
 .tab-pane.active {
   display: block !important; }
